@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03C41A861A72363C00AA9D8F /* drawViewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C41A851A72363C00AA9D8F /* drawViewFile.swift */; };
+		03C41A881A72599200AA9D8F /* line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C41A871A72599200AA9D8F /* line.swift */; };
 		03E9A0FB1A7219D500C42258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9A0FA1A7219D500C42258 /* AppDelegate.swift */; };
 		03E9A0FD1A7219D500C42258 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9A0FC1A7219D500C42258 /* ViewController.swift */; };
 		03E9A1001A7219D500C42258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E9A0FE1A7219D500C42258 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03C41A851A72363C00AA9D8F /* drawViewFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = drawViewFile.swift; path = ../drawViewFile.swift; sourceTree = "<group>"; };
+		03C41A871A72599200AA9D8F /* line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = line.swift; sourceTree = "<group>"; };
 		03E9A0F51A7219D500C42258 /* DrawingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E9A0F91A7219D500C42258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03E9A0FA1A7219D500C42258 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,8 +81,10 @@
 		03E9A0F71A7219D500C42258 /* DrawingApp */ = {
 			isa = PBXGroup;
 			children = (
+				03C41A851A72363C00AA9D8F /* drawViewFile.swift */,
 				03E9A0FA1A7219D500C42258 /* AppDelegate.swift */,
 				03E9A0FC1A7219D500C42258 /* ViewController.swift */,
+				03C41A871A72599200AA9D8F /* line.swift */,
 				03E9A0FE1A7219D500C42258 /* Main.storyboard */,
 				03E9A1011A7219D500C42258 /* Images.xcassets */,
 				03E9A1031A7219D500C42258 /* LaunchScreen.xib */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				03E9A0FD1A7219D500C42258 /* ViewController.swift in Sources */,
+				03C41A881A72599200AA9D8F /* line.swift in Sources */,
 				03E9A0FB1A7219D500C42258 /* AppDelegate.swift in Sources */,
+				03C41A861A72363C00AA9D8F /* drawViewFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +415,7 @@
 				03E9A1161A7219D500C42258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03E9A1171A7219D500C42258 /* Build configuration list for PBXNativeTarget "DrawingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				03E9A1191A7219D500C42258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
